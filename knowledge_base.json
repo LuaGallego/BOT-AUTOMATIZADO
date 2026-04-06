@@ -1,0 +1,60 @@
+[
+  {
+    "id": "whitelist_aprovacao",
+    "tipo": "regra_local",
+    "categoria": "whitelist",
+    "palavras_chave": ["whitelist", "aprovação", "aprovacao", "entrar", "liberar"],
+    "resposta_base": "A whitelist é analisada pela staff. Aguarde no ticket e evite abrir múltiplos tickets sobre o mesmo assunto.",
+    "sensivel": true
+  },
+  {
+    "id": "denuncia_jogador",
+    "tipo": "regra_local",
+    "categoria": "denuncia",
+    "palavras_chave": ["denúncia", "denuncia", "report", "denunciar", "jogador abusivo"],
+    "resposta_base": "Para denúncias, envie provas (prints/vídeos), horário aproximado e nome dos envolvidos. A staff vai analisar.",
+    "sensivel": true
+  },
+  {
+    "id": "veiculo_abandonado",
+    "tipo": "regra_local",
+    "categoria": "veiculo",
+    "palavras_chave": ["carro abandonado", "veículo abandonado", "veiculo abandonado", "carro sem dono"],
+    "resposta_base": "Veículos aparentemente abandonados seguem as regras do servidor. Se houver dúvida, chame a staff antes de mexer.",
+    "sensivel": false
+  },
+  {
+    "id": "claim_safehouse_plus",
+    "tipo": "mod",
+    "categoria": "mod",
+    "nome_mod": "Claim Safehouse Plus",
+    "aliases": ["claim", "safehouse", "mod de claim", "claim mod", "territorio"],
+    "palavras_chave": ["claim", "casa", "safehouse", "território", "territorio"],
+    "resposta_base": "Esse mod controla o sistema de claim/safehouse do servidor.",
+    "faq_local": {
+      "claim": "Para dar claim, abra o menu do mod (ou menu de safehouse) dentro da área permitida e confirme a ação.",
+      "unclaim": "Para remover claim, use a opção de desclaim no mesmo menu.",
+      "duvida_geral": "Se o claim não aparecer, verifique se você está na área correta e se atende os requisitos do servidor."
+    },
+    "fontes": {
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890",
+      "wiki_url": ""
+    },
+    "sensivel": false
+  },
+  {
+    "id": "mod_exemplo_crafting",
+    "tipo": "mod",
+    "categoria": "mod",
+    "nome_mod": "Advanced Crafting Overhaul",
+    "aliases": ["crafting overhaul", "crafting", "mod crafting"],
+    "palavras_chave": ["craft", "crafting", "receita", "recipe", "item"],
+    "resposta_base": "Esse mod altera o sistema de crafting e receitas.",
+    "faq_local": {},
+    "fontes": {
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=9999999999",
+      "wiki_url": "https://exemplo-wiki-do-mod.com"
+    },
+    "sensivel": false
+  }
+]
